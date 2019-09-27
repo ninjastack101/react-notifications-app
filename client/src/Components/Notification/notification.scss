@@ -1,0 +1,273 @@
+.userJoined {
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  width: 155px;
+  height: 35px;
+  border-radius: 5px;
+  top: 240px;
+  left: 530px;
+  border: 2px solid #3f3955;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 62px;
+    border-top: 15px solid #3f3955;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+  }
+
+  p {
+    color: #3f3955;
+    font-size: 14px;
+    margin-top: 0px;
+    line-height: 35px;
+    text-transform: capitalize;
+  }
+
+  .userPhoto {
+    float: left;
+    height: 35px;
+    height: 35px;
+    background: #3f3955;
+  }
+}
+
+.broadcaststart {
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  width: 280px;
+  height: 48px;
+  border-radius: 5px;
+  top: 130px;
+  left: 830px;
+  border: 2px solid #78b75c;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+
+  p {
+    color: #3f3955;
+    font-size: 18px;
+    margin: 0;
+    line-height: 48px;
+    text-transform: capitalize;
+  }
+
+  .userPhoto {
+    float: left;
+    height: 48px;
+    height: 48px;
+    background: #78b75c;
+  }
+}
+
+.broadcaststop {
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  width: 280px;
+  height: 48px;
+  border-radius: 5px;
+  top: 130px;
+  left: 830px;
+  border: 2px solid #fe768a;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+
+  p {
+    color: #3f3955;
+    font-size: 18px;
+    margin: 0;
+    line-height: 48px;
+    text-transform: capitalize;
+  }
+
+  .userPhoto {
+    float: left;
+    height: 48px;
+    height: 48px;
+    background: #fe768a;
+  }
+}
+
+.myConnection {
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  width: 260px;
+  height: 48px;
+  border-radius: 5px;
+  top: 80px;
+  left: 1595px;
+  border: 2px solid #3f3955;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    border-bottom: 15px solid #3f3955;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+  }
+
+  p {
+    color: #3f3955;
+    font-size: 18px;
+    margin: 0;
+    line-height: 48px;
+    text-transform: capitalize;
+  }
+
+  .userPhoto {
+    float: right;
+    height: 48px;
+    height: 48px;
+    background: #3f3955;
+  }
+}
+
+.otherConnection {
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  width: auto;
+  height: 38px;
+  border-radius: 5px;
+  top: 236px;
+  left: 588px;
+  border: 2px solid #3f3955;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 5px;
+    border-top: 15px solid #3f3955;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+  }
+
+  p {
+    color: #3f3955;
+    font-size: 18px;
+    margin: 0;
+    line-height: 48px;
+    text-transform: capitalize;
+  }
+
+  .userPhoto {
+    float: left;
+    height: 38px;
+    height: 38px;
+    background: #3f3955;
+  }
+}
+
+.userLeft {
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  width: 155px;
+  height: 35px;
+  border-radius: 5px;
+  top: 240px;
+  left: 530px;
+  border: 2px solid #fe768a;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 62px;
+    border-top: 15px solid #fe768a;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+  }
+
+  p {
+    color: #3f3955;
+    font-size: 14px;
+    margin: 0;
+    line-height: 35px;
+    text-transform: capitalize;
+  }
+
+  .userPhoto {
+    float: left;
+    height: 35px;
+    height: 35px;
+    background: #fe768a;
+  }
+}
+
+.mywebcamIssue {
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  width: 240px;
+  height: 48px;
+  border-radius: 5px;
+  top: 10px;
+  left: 850px;
+  border: 2px solid #3f3955;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+
+  p {
+    color: #3f3955;
+    font-size: 18px;
+    margin: 0;
+    line-height: 48px;
+    text-transform: capitalize;
+  }
+
+  .userPhoto {
+    float: left;
+    height: 48px;
+    height: 48px;
+    background: #3f3955;
+  }
+}
+
+.otherwebcamIssue {
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  width: auto;
+  height: 38px;
+  border-radius: 5px;
+  top: 236px;
+  left: 588px;
+  border: 2px solid #3f3955;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 5px;
+    border-top: 15px solid #3f3955;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+  }
+
+  p {
+    color: #3f3955;
+    font-size: 18px;
+    margin: 0;
+    line-height: 48px;
+    text-transform: capitalize;
+  }
+
+  .userPhoto {
+    float: left;
+    height: 38px;
+    height: 38px;
+    background: #3f3955;
+  }
+}
