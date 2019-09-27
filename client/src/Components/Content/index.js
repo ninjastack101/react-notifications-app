@@ -27,17 +27,17 @@ export default class Content extends React.Component {
         this.state.showpopup === action.type && <Notification action={action} />
       );
       buttons.push(
-        <li>
-          <ButtonComponent action={action} toggleState={this.toggleState} />
-        </li>
+        <ButtonComponent
+          key={action.type}
+          action={action}
+          toggleState={this.toggleState}
+        />
       );
     });
     return (
       <React.Fragment>
         {notifications}
-        <div className="leftButton">
-          <ul>{buttons}</ul>
-        </div>
+        <div className="leftButton">{buttons}</div>
       </React.Fragment>
     );
   }
